@@ -3,9 +3,9 @@ var app = express();
 var converter = require("./converter");
 
 app.get("/rgbToHex", function(req, res){
-    var red   = parseInt(req.query.red, 10);
-    var green = parseInt(req.query.green, 10);
-    var blue  = parseInt(req.query.blue, 10);
+    let red   = parseInt(req.query.red, 10);
+    let green = parseInt(req.query.green, 10);
+    let blue  = parseInt(req.query.blue, 10);
   
     var hex = converter.rgbToHex(red, green, blue);
   
@@ -13,9 +13,9 @@ app.get("/rgbToHex", function(req, res){
 });
 
 app.get("/hexToRgb", function(req, res){
-    var hex = req.query.hex;
+    let hex = req.query.hex;
 
-    var rgb = converter.hexToRgb(hex);
+    let rgb = converter.hexToRgb(hex);
   
     res.send(JSON.stringify(rgb));
 });
