@@ -39,4 +39,29 @@ describe("Color Code Converter API", function(){
             });
         });
     });
+    describe("Post method to insert user data", function(){
+        it("return status 200", function(done){
+
+        });
+        it("Shold return ok answer", function(done){
+
+        })
+    });
+    describe("put method to modify user data", function(){
+        it("return status 200", function(done){
+
+        });
+        it("Shold return ok answer", function(done){
+            
+        })
+    });
+
+    describe("delete method to exclude user data", function(){
+        it("return status 200", function(done){
+
+        });
+        it("Shold return ok answer", function(done){
+            
+        })
+    });
 });
