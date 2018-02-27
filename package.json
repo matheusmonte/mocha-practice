@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/matheusmonte/mocha-practice#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "express": "^4.16.2",
     "mocha": "^5.0.1",
